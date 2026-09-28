@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/filterdata",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Filter and reshape data text streams with deterministic transforms.",
+  "bin": {
+    "filterdata": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/filterdata.git"
+  },
+  "homepage": "https://theworker02.github.io/filterdata/",
+  "keywords": [
+    "filter",
+    "data",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
